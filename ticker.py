@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 
 logging.basicConfig(filename='ticker.log',level=logging.INFO)
 tweet_length = 280
-hashtags = "#Hagen #VRR"
+hashtags = "#HST_AG #VRR"
 orte = ["MVG","VER","Dortmund","Schwerte","Iserlohn","Wiblingwerde","Breckerfeld","Ennepetal","Gevelsberg","Wetter","Herdecke","Kierspe"]
 website = "http://www.strassenbahn-hagen.de"
 tweet_length -= (len(website)+ 1 + len(hashtags))
