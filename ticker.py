@@ -24,10 +24,10 @@ root = ET.fromstring(r.content)
 with open(knownfile,encoding='utf-8') as file:
     known = file.read().splitlines()
 
-api = twitter.Api(consumer_key='X',
-                  consumer_secret='X',
-                  access_token_key='X',
-                  access_token_secret='X')
+api = twitter.Api(consumer_key='c8CgaTstFu3jtLum4fqdZr3XK',
+                  consumer_secret='ukezdQvLndXoYFpHwFHBgsHe64RdjHFA8x9sybr0i8oMgyvvJ4',
+                  access_token_key='1364550296454725638-3HyRFjsGVJBDIpwTDcACxv0YVyNz3b',
+                  access_token_secret='0A1CSpETeUpF6MnEqDFjprWKQcetPnkIOO8PDRnSpaVIb')
 #print(api.VerifyCredentials())
 
 ci = 0
