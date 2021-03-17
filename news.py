@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 logging.basicConfig(filename='news.log',level=logging.INFO)
 tweet_length = 280
-hashtags = "#Hagen #VRR"
+hashtags = "#HST_AG #VRR"
 tweet_length -= len(hashtags)
 
 knownfile = 'known-news.txt'
